@@ -1,0 +1,150 @@
+* {	
+	margin: 0;
+}
+
+body{
+ 	font-family: "Montserrat";
+ 	font-weight: lighter;
+ 	text-align: center;
+ 	width:100%;
+	padding: auto;
+
+}
+
+html, body {
+	height: 100%;
+}
+
+.header	{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color:darkslategrey;
+	background-image: linear-gradient(darkslategrey,black,darkslategrey);
+	margin: top"-40px";
+	margin-left:auto;
+	margin-right: auto;
+
+}
+.title{
+	width: 500px;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	font-family: "Italianno",cursive;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 40px;
+	font-weight: 1px;
+	border: none;
+}
+
+ul {text-align: center;
+	align-items: center;
+	position:relative;
+	margin: auto;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: transparent;
+	border:white;
+	opacity: .8;
+	line-height: 50px;
+	text-align: center;
+	font-size: 15px;
+	margin: 0px 3px 0px 5px;
+	color: white;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: grey;
+}
+
+ul li ul li {
+	height: 50px;
+	opacity:100;
+	display: none;
+	background-color: darkgray;
+}
+
+ul li:hover ul li {
+	background-color: darkslategrey;
+	display: block;
+	cursor: pointer;
+	list-style: vertical;
+	border: white;
+}
+
+.sect {
+height: 100%;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: aqua;
+background-attachment: fixed;
+}
+
+.subsect {
+height: 50%;
+width: 100%;
+background-size: cover;
+background-image: linear-gradient(darkslategrey,black,darkslategrey);
+}
+
+#img2 {
+	background-color: rgba(0, 0, 0, .5);
+	border: black 4px;
+	border-radius: 100px;
+	padding: 20px 20px 20px 20px;
+    position:static;
+    margin-top: 80px;
+}
+
+.sect {
+height: 100%;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: aqua;
+background-attachment: fixed;
+text-align: center;
+
+}
+
+.sect1{
+	margin-top: -7px;
+	background-position: 0 -200px;
+	background-image: url(https://images.unsplash.com/photo-1595280769531-a25c4c76116a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+}
+
+#heading{
+	font-family: "Rozha One",serif;
+	font-weight: 100;
+	color: white;
+}
+
+.subsect1{
+	
+}
+
+.sect2{
+
+	background-image: url(https://images.unsplash.com/photo-1586356307549-32c0684da5e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80);
+}
+.subsect2{
+	font-family: "italianno",cursive;
+	font-size: 30px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	color: white;
+}
